@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief Source file contains the definition for the statistics methods
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Sergio Montano
+ * @date Nov 13th 2018
  *
  */
 
@@ -40,4 +40,36 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics (uint8 *ps_dataIn_p8, uint8 ps_dataSize_u8)
+{
+
+}
+
+void print_array (uint8 *pa_dataIn_p8, uint8 pa_dataSize_u8)
+{
+
+}
+
+uint8 find_median (uint8 *fm_dataIn_p8, uint8 fm_dataSize_u8)
+{
+  return 0;
+}
+
+uint8 find_mean (uint8 *fn_dataIn_p8, uint8 fn_dataSize_u8)
+{
+  return 0;
+}
+
+uint8 find_max (uint8 *fx_dataIn_p8, uint8 fx_dataSize_u8)
+{
+  return 0;
+}
+uint8 find_min (uint8 *fi_dataIn_p8, uint8 fi_dataSize_u8)
+{
+  return 0;
+}
+
+void sort_array(uint8 *sa_SataIn_p8, uint8 sa_dataSize_u8)
+{
+
+}
